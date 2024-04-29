@@ -2,10 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '@/styles/PageTitle.module.css'
 
-import ProductsList from "@/components/ProductsList"
+import OrdersList from "@/components/OrdersList";
 
 
-export default function Home() {
+export default function Sells() {
   return (
     <>
       {/* Page title */}
@@ -20,7 +20,8 @@ export default function Home() {
           </li>
         </ul>
       </div>
-      <ProductsList />
+
+        <OrdersList />
 
     </>
   );

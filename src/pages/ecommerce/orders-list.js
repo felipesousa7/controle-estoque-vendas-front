@@ -1,27 +1,30 @@
 import React from 'react';
+import OrdersLists from '@/components/OrdersList';
+import Features from '@/components/OrdersList/Features';
 import Link from 'next/link';
 import styles from '@/styles/PageTitle.module.css'
 
-import ProductsList from "@/components/ProductsList"
-
-
-export default function Home() {
+const OrdersList = () => {
   return (
     <>
       {/* Page title */}
       <div className={styles.pageTitle}>
-        <h1>Controle de produtos e estoque</h1>
+        <h1>Orders List</h1>
         <ul>
           <li>
             <Link href="/">Dashboard</Link>
           </li>
-          <li>
-          Controle de produtos e estoque
-          </li>
+          <li>Orders List</li>
         </ul>
       </div>
-      <ProductsList />
 
+      {/* Features */}
+      <Features />
+
+      {/* OrdersLists */}
+      <OrdersLists />
     </>
-  );
+  )
 }
+
+export default OrdersList;
