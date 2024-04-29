@@ -11,7 +11,7 @@ Este projeto é uma aplicação de controle de vendas e estoque desenvolvida com
 * Interação com o backend para registro e atualização de vendas e produtos
 
 ### Como Executar
-* Clone e execute o projeto [`Back-end`](https://github.com/felipesousa7/controle-estoque-vendas)
+* Clone e execute o projeto [`Back-end`](https://github.com/felipesousa7/controle-vendas-estoque)
 * Clone este repositório.
 * Instale as dependências usando npm install.
 * Execute o projeto com npm start.
